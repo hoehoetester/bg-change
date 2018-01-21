@@ -4,8 +4,6 @@
     var index = 0;
 
     function updateImage() {
-        console.log('test');
-
         document.body.style.backgroundImage = 'url(' + images[index] + ')';
         index++;
         if (index === images.length) {
@@ -13,6 +11,5 @@
         }
     }
 
-    setInterval(updateImage, 1500);
-
+    setInterval(updateImage, 4000);
 })();

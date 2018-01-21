@@ -10,5 +10,5 @@ body {
     background-image: url('./images/image_001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    transition: background-image 0.5s;
+    transition: background-image 1.5s;
 }
